@@ -48,6 +48,7 @@ h2{
     height: 880px;
     margin-top: 123px;
     background-color: rgb(91, 211, 171);
+    overflow-x: scroll;
 }
 
 .descriçao-pedido{
