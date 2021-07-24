@@ -15,6 +15,7 @@ body{
     top: 0;
     left: 0;
     display: flex;
+    box-shadow: 0 3px 0.3em grey;
 }
 
 .name{
@@ -82,7 +83,7 @@ button{
     margin-bottom: 10px;
     border-radius: 9px;
     background-color: #FFFFFF;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-left: 15px;
 }
 
@@ -119,7 +120,7 @@ button img {
 .preço{
     
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 16px;
     line-height: 18.75px;
