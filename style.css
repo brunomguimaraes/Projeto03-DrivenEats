@@ -48,7 +48,6 @@ h2{
     width: 414px;
     height: 880px;
     margin-top: 123px;
-    background-color: rgb(91, 211, 171);
     overflow-x: scroll;
 }
 
@@ -64,8 +63,17 @@ h2{
     letter-spacing: 1.8%;
 }
 
-.pratos{
+.pratos {
     display: flex;
+}
+
+.pratos .selecionado .prato button .bebidas button .verde {
+    background-color: green;
+}
+
+
+.verde  {
+    background-color:  green;
 }
 
 .bebidas{
@@ -76,7 +84,8 @@ h2{
     display: flex;
 }
 
-button{
+
+button {
     width: 172px;
     height: 216px;
     margin-top: 10px;
